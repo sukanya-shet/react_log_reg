@@ -1,0 +1,48 @@
+html {
+  font-family: "McLaren", cursive;
+}
+body {
+  background: rgb(43, 172, 103);
+}
+
+.form-cont {
+  padding: 10px 15px 10px 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(189, 226, 207, 0.7);
+  text-align: center;
+  background: rgba(189, 226, 207, 0.3);
+  border-radius: 5px;
+  outline: none;
+  color: rgb(219, 219, 219);
+}
+
+#login {
+  background: #fff8f8;
+  color: rgb(43, 172, 103);
+  width: 275px;
+}
+#uName {
+  width: 245px;
+}
+form {
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  float: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+.greet {
+  color: rgb(233, 223, 223);
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+}
+
+login:hover {
+  background: #253736;
+  color: #fff8f8;
+  box-shadow: 0 2px 5px black;
+}
